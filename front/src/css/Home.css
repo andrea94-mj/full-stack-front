@@ -1,0 +1,51 @@
+
+.Header-img{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.Header-h1{
+    font-size: 3.5rem;
+    color: rgb(128, 128, 0);
+    text-align: center;
+    font-family: "Fuzzy Bubbles", sans-serif;
+}
+
+.Section-home{
+    width: 95%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem auto ;
+}
+
+.Section-info{
+    width: 430px;
+    height: 480px;
+    background-color: rgb(128, 128, 0);
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 1rem;
+    gap: 0.5rem;
+}
+
+.Section-icono{
+    width: 4.5rem;
+}
+
+.Section-h2{
+    color: white;
+    font-size: 1.05em;
+}
+
+.Section-p{
+    font-size: 0.95em;
+    color: white;
+    text-align: justify;
+    font-weight: 300;
+    line-height: 1.2rem;
+}
